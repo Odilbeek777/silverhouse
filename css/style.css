@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    background: white;
+    padding: 15px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 80px 0;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.menu__item {
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+
+.box {
+    display: flex;
+    padding: 30px 0;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    background: #F0F0F0;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 46px 0;
+}
+
+.number-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #808080;
+
+}
+
+.number-a {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+
+.silverhouse__wrap {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.silverhouse__desc-1 {
+    max-width: 730px;
+    padding: 50px 40px;
+    margin: 30px 0;
+    background: #F0F0F0;
+}
+
+.silverhouse__desc-2 {
+    max-width: 350px;
+    padding: 50px 40px;
+    margin: 30px 0;
+    background: #F0F0F0;
+}
+
+.silverhouse__desc-h {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #4581B7;
+    padding-bottom: 25px;
+}
+
+.silverhouse__desc-1-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;
+}
+
+.silverhouse__desc-2-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;
+    padding-bottom: 30px;
+}
+
+.silverhouse__desc-2-link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;   
+}
